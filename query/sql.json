@@ -1,0 +1,3 @@
+{
+    "seriesTimeQuery": "INSERT IGNORE INTO case_time_series (dailyconfirmed, dailydeceased, dailyrecovered, date, totalconfirmed, totaldeceased, totalrecovered) VALUES ?"
+}

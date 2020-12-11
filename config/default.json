@@ -1,0 +1,22 @@
+{
+    "App": {
+        "newProjEndpoint": {
+            "testAPI": "/covidStateWiseAPI"
+        },
+        "webServer": {
+            "port": 9010
+        }
+    },
+    "MySql": {
+        "connectionLimit": 100,
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "99000",
+        "database": "covid"
+    },
+    "redisConnection": {
+        "port": 16379,
+        "host": "127.0.0.1",
+        "password": "8888"
+    }
+}
