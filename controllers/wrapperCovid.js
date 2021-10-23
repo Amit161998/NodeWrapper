@@ -4,6 +4,7 @@ const redis = require('ioredis');
 const config = require('../config/config');
 const kafka = require('kafka-node');
 
+//New redis connection 
 const Redis = new redis({
     port: config.redisConnection.port,
     host: config.redisConnection.host,
