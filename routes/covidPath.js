@@ -8,6 +8,6 @@ console.log(config.App.newProjEndpoint.testAPI)
 
 // router.get(config.App.newProjEndpoint.testAPI, redisController.getDataFromRedis, feedController.getDB);
 router.get(config.App.newProjEndpoint.testAPI, feedController.getDB);
-
+//Covid endpoint
 
 module.exports = router;
